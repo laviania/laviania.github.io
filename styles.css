@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(181, 246, 255);
+    margin: 0; 
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+nav {
+    background-color: darkcyan;
+    padding: 9px;
+    position: fixed;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: aliceblue;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+    background-color: rgb(76, 15, 156)
+}
