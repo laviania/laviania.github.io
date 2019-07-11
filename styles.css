@@ -3,7 +3,7 @@ body {
     margin: 0; 
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    
+    box-sizing: border-box
 }
 
 nav {
@@ -30,7 +30,7 @@ header {
 
 .slide {
          height: 75vh;
-         background-color: pink;
+         background-color:lavender;
          border: 1px solid #ffffff;
          margin: 10px;
          align-content: center;
@@ -43,7 +43,7 @@ header {
 
 
 div h1 {
-    color: blue;
+    color: rgb(0, 132, 255);
     font-size: 2em;
 }
 
@@ -53,13 +53,18 @@ div h1 {
 
 
 #my-profile-pic {
-    background-image: url("https://images-na.ssl-images-amazon.com/images/I/41mjUqKBxPL.jpg");
-    height: 100%;
+    background-image: url("/Users/lavinialiverani/Documents/ucla coding/day5/IMG_8943.jpeg");
+    height: 600px;
     width: 40%;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-position: center;
+    min-width: 300px; 
 }
+    
+
+    
+
 
 #my-profile-details {
     height: 100%;
@@ -77,19 +82,22 @@ h2 {
 }
 
 .post-wrapper {
-    width: 100%;
-    
+    /* width: 100%; */
+    margin-top: 4px;
     background-color: #f8f6fa;
     border: 2px dotted #7c0aee;
     overflow-y: scroll;
-    overflow-x: scroll;
     padding: 20px;
+    display: flex;
+    
+
+
     
 }
 
 
 #blog {
-    flex-direction: column;
+    flex-direction: row; /* or you can use column*/
 }
 
 .date {
@@ -99,3 +107,16 @@ h2 {
     
     
 }
+
+div ul {
+    list-style-type: square;
+}
+
+div h3 { 
+    align-content: flex-start;
+ 
+}
+
+
+
+/*html scroll behavior smooth*/
